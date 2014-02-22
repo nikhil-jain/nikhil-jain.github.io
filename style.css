@@ -2151,7 +2151,7 @@ pre.codesample
 {
 	clear: left;
 	float: left;
-	width: 63%;
+	width: 62%;
 	padding: 20px 0;
 	margin: 2% 0 0 1%;
 	display: inline;
@@ -2162,9 +2162,9 @@ pre.codesample
 #layout-two-liquid #aside
 {
 	float: right;
-	width: 26%;
+	width: 28%;
 	padding: 20px 20px;
-	margin: 0 0% 0 0%;
+	margin: 0% 0% 0% 0%;
 	display: inline;
 	border-left: 1px solid #0000A0;
 	border-bottom: 1px solid #0000A0;
@@ -2172,6 +2172,16 @@ pre.codesample
 }
 
 #layout-two-liquid #aside h3 { margin: 0; }
+
+#layout-two-liquid #aside ul
+{
+	padding: 0px 17px;
+}
+
+#layout-two-liquid #aside ul li
+{
+	padding-left: -10px;
+}
 
 #layout-two-liquid #footer
 {
