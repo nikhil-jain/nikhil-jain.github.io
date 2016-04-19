@@ -23,19 +23,7 @@ img { border: none; }
 a:link { color: #035389; }
 a:visited { color: #09619C; }
 
-a:focus
-{
-	color: #fff;
-	background: #000;
-}
-
 a:hover { color: #000; }
-
-a:active
-{
-	color: #cc0000;
-	background: #fff;
-}
 
 table
 {
