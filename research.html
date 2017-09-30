@@ -20,35 +20,53 @@
 
 <div id="content">
 
-My primary area of research is communication in parallel computing. This
-includes predicting and understanding the behavior of HPC networks for scalable
-application execution, topology aware mapping to reduce communication time, and
-developing scalable algorithms for communication intensive operations.  I am
-also interested in parallel discrete event simulations, interoperation of
+My area of research is parallel computing. Within parallel computing, I
+focus on three main aspects: 1) communication and networks, 2) data analytics
+for performance, and 3) applications of parallel computing. I created the
+<a href="https://github.com/LLNL/tracer">TraceR simulation framework</a> and
+contributed to the <a href="https://xgitlab.cels.anl.gov/codes/codes">CODES
+simulation framework</a> to enable reliable study of complex applications on
+current and future HPC systems. I also created the
+<a href="https://github.com/LLNL/damselfly">Damselfly modeling system</a> and
+<a href="https://github.com/LLNL/bgqncl">BGQ-NCL</a> to assist studies of the
+dragonfly and torus networks. Since my time as a graduate student at U-Illinois,
+I have added several features to the
+<a href="https://charm.cs.illinois.edu">Charm++ parallel programming system</a>,
+and applications developed using it, namely OpenAtom, NAMD, EpiSimidemics, and
+Charm-ROSS.
+
+<br><br>
+My network work includes modeling and simulation based
+prediction and understanding of the behavior of HPC networks for scalable
+application execution, design and study of network topologies, and development
+of scalable algorithms for communication intensive operations. I also actively
+work on use of machine learning and data analytics for understanding and
+optimizing the behavior and performance of parallel applications.
+I am also interested in parallel discrete event simulations, interoperation of
 parallel languages, such as Charm++, MPI, UPC, etc., and development of adaptive
 runtime systems. In my free time, I like to think of collective algorithms for
-different network topologies and parallel machine learning algorithms. 
+different network topologies and parallel algorithms for time-consuming tasks.
 
 <br>
 <br>
 
-<b> Key Projects </b>
+<b> Representative Projects </b>
 <ul >
 
 <li>
 <b>Simulation based analysis of HPC networks</b>
 <ul id=project_list>
-<li> Proposed and designed TraceR, a fast packet-level parallel network 
-simulator for understanding and accurately predicting behavior of applications 
+<li> Proposed and designed TraceR, a fast packet-level parallel network
+simulator for understanding and accurately predicting behavior of applications
 on extreme scale networks.
-<li> Created Damselfly, a functional model that estimates the flow of 
-traffic on Dragonfly networks, to find the best routing scheme and job 
+<li> Created Damselfly, a functional model that estimates the flow of
+traffic on Dragonfly networks, to find the best routing scheme and job
 placement policy for scenarios with  multi-job executions.
 </ul>
 <br>
 
 <li>
-<b>Supervised learning for predicting performance of communication-bound 
+<b>Supervised learning for predicting performance of communication-bound
 applications</b>
 <ul id=project_list>
 <li> Deployed ensemble methods, Extremely Randomized Trees and Gradient
@@ -65,8 +83,8 @@ communication.
 <li> Developed generalized topology-aware mapping schemes for Cray XE6/XK7
 and IBM Blue Gene/Q, which resulted in up to 50\% reduction in execution time of
 OpenAtom.
-<li> Designed and implemented a 2D-decomposition based message-driven FFT 
-library that improved the strong scaling of a $436$-molecule system to $65,536$ 
+<li> Designed and implemented a 2D-decomposition based message-driven FFT
+library that improved the strong scaling of a $436$-molecule system to $65,536$
 cores.
 </ul>
 <br>
@@ -74,10 +92,10 @@ cores.
 <li>
 <b>Interoperation of Charm++ and MPI</b>
 <ul id=project_list>
-<li> Created a framework to enable coexistence of Charm++ and MPI in 
+<li> Created a framework to enable coexistence of Charm++ and MPI in
 production applications.
 <li> Demonstrated the productivity and performance benefits of
-interoperation via several example use cases, such as  parallel FFTW in NAMD, 
+interoperation via several example use cases, such as  parallel FFTW in NAMD,
 Charm++'s sorting library in Chombo, MPI-IO in EpiSimdemics, etc.
 </ul>
 <br>
@@ -90,7 +108,7 @@ enables execution of several loosely-connected Charm++ instances within a single
 application execution. This capability is currently used by NAMD for
 replica-exchange algorithm and Charm++ for soft-error fault tolerance.
 <li> Active contributor to various levels of Charm++ stack, including the
-communication layer (PAMI, VERBS, and MPI), load balancing framework, and 
+communication layer (PAMI, VERBS, and MPI), load balancing framework, and
 Adaptive MPI.
 </ul>
 </ul >
@@ -99,7 +117,7 @@ Adaptive MPI.
 Performance Computing Group, managed by Dr. Yogish Sabharwal, in IBM
 Research-India. While at IBM, I worked on HPCC benchmark optimization for IBM's
 Blue Gene series, developing algorithms for MPI Collectives and scalability of
-scientific and real life applications.  
+scientific and real life applications.
 
 </div>
 
